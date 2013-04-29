@@ -1,0 +1,3 @@
+BlobApp is a simple background utility that lets you easily toggle the ["wvous floater"](http://en.wikipedia.org/wiki/Expos%C3%A9_%28Mac_OS_X%29#Undocumented_features) (otherwise known as the "Exposé Blob") with a configurable keystroke. That's pretty much it—it was one of the first Cocoa programs I ever wrote, and it was more of an experiment than an attempt at a really useful app. But I think it's useful in its own way. ;)
+
+I wrote this back in 2004, so the coding style, while not unpolished, is pretty different from my coding style right now. Plus, there's redundant code everywhere. In other words, I'm not too proud of the code itself, but hey, I was a young and budding programmer back then.
