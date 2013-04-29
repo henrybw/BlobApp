@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                changeShowBlobAppHotKey = id; 
+                changeShowInstructions = id; 
+                changeShowMainPanel = id; 
+                changeToggleBlobHotKey = id; 
+                closeInstructionsPanel = id; 
+                resetBlobLocation = id; 
+                revertToOriginal = id; 
+                toggleBlob = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutImage = ImageView; 
+                blobStatus = NSButton; 
+                helpPanel = NSPanel; 
+                helpText = NSTextField; 
+                mainPanel = NSPanel; 
+                showBlobAppHotKey = NSPopUpButton; 
+                showHelpCheckbox = NSButton; 
+                showPanelCheckbox = NSButton; 
+                toggleBlobHotKey = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSApplication; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }
+    ); 
+    IBVersion = 1; 
+}

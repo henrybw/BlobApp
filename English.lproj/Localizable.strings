@@ -1,0 +1,52 @@
+/*
+ * Localizable.strings
+ * English localized string table
+ *
+ * This was created so we can change code easily and not have to dig
+ * through source files just to change a single error message.
+ */
+
+/* Key codes */
+"0" = "None";
+"122" = "F1";
+"120" = "F2";
+"99" = "F3";
+"118" = "F4";
+"96" = "F5";
+"97" = "F6";
+"98" = "F7";
+"100" = "F8";
+
+/* Title of the reset preferences confirmation sheet */
+"ResetTitle" = "Are you sure you want to reset your preferences to their original settings?";
+
+/* Description of the reset preferences confirmation sheet */
+"ResetDescription" = "Choosing Reset will restore all settings to the state they were in when BlobApp was first installed.\n\nThis cannot be undone.";
+
+"Title" = "Error";
+
+"Description" = "Sorry, you cannot flick the switch.";
+
+/* OK button */
+"OK" = "Awww…";
+
+/* The Reset button (for preferences) */
+"Reset" = "Reset";
+
+/* Cancel button */
+"Cancel" = "Cancel";
+
+/* The help text */
+"HelpText" = "As long as BlobApp is running, you can turn the Dock’s mysterious “Blob”, a supposed Easter egg new to Mac OS X 10.3 Panther, on or off by checking the “Blob is shown” checkbox in the main panel%@.  Even if you’re in System Preferences, TextEdit, or Mail, just tapping that key will turn the Blob on or off.
+
+You can check to see if the Blob is currently shown or not (though it should be obvious) by activating BlobApp (double-click BlobApp's icon again%@) and looking at the “Blob is shown” checkbox.  You can also change the Blob’s status by clicking this checkbox.  Here you can also change the Blob toggle key, and the BlobApp activation key, or turn them off altogether.
+
+What does the Blob do anyway?  The F9 and F10 functions of Exposé.  Clicking the Blob executes F10, holding the Option key while clicking it triggers F9.  Hold Shift to do either in slow motion.  You can also drag the Blob around too (to reset it to the location it originally was, click the “Reset Blob to its original location” button in the Preferences tab of the BlobApp window).
+
+Officially, the Blob is the “wvous floater”.  “wvous floater” actually stands for “Window Vous Floater”, and it is believed “Window Vous” was the original name for Exposé (“vous” is apparently a French word).  However, David Pogue dubbed it “The Blob” in his book, Mac OS X Panther: The Missing Manual.  Well, “The Blob” sounds a lot better than “Window Vous floater”, or even “Exposé Floater”, don’t you think?";
+
+/* How to trigger Blob hot key */
+"BlobHotKeyText" = " or by pressing the %@ key";
+
+/* How to activate BlobApp */
+"ActivateBlobAppHotKeyText" = " or press %@";
